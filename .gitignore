@@ -1,0 +1,53 @@
+# Build rezultati
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider cache
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.swp
+*~
+
+# NuGet paketi
+*.nupkg
+*.snupkg
+**/packages/*
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core
+project.assets.json
+project.fragment.lock.json
+artifacts/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Database files (opciono - možeš ostaviti)
+*.db
+*.sqlite
+
+# Docker volumes (ne treba pushati)
+postgres_data/
+
+# Output files
+*.log
